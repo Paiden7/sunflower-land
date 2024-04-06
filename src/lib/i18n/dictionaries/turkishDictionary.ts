@@ -175,7 +175,7 @@ import {
 } from "./types";
 
 const generalTerms: Record<GeneralTerms, string> = {
-  "2x.sale": "2x Satış",
+  "2x.sale": "2x Fiyat",
   advanced: "Gelişmiş",
   achievements: "Başarımlar",
   accept: "Kabul Et:",
@@ -257,7 +257,7 @@ const generalTerms: Record<GeneralTerms, string> = {
   error: "Hata",
   exchange: "Exchange",
   exotics: "Egzotikler",
-  "expand.land": "Adanı Genişlet",
+  "expand.land": "Adanı Genislet",
   expand: "Genişlet",
   explore: "Keşfet",
   farm: "Çiftlik",
@@ -470,7 +470,7 @@ const generalTerms: Record<GeneralTerms, string> = {
   buildings: "Binalar",
   boosts: "Takviyeler",
   decorations: "Dekorasyonlar",
-  "change.Language": "Dili değiştir",
+  "change.Language": "Dili Değiştir",
   "copy.link": "Bağlantıyı kopyala",
   "copy.failed": "Kopyalama Başarısız!",
   search: "Ara",
@@ -796,15 +796,15 @@ const boostDescriptions: Record<BoostDescriptions, string> = {
   "description.genie.lamp":
     "İçinde sana 3 dilek hakkı verecek bir cin içeren sihirli bir lamba.",
   "description.basic.scarecrow":
-    "Çiftliğinizin ÇÖB’ünün seçici savunucusu (Çok Önemli Bitkiler)",
+    "Çiftliğinizin Kahramanı: Değerli Mahsullerin Koruyucusu.",
   "description.scary.mike":
-    "Sebzelere fısıldayan ve korkunç derecede iyi hasatların şampiyonu!",
+    "Hasat Kahramanı Korkuluk: Sebzelere Can Veren ve Bereketi Artıran Bir Sihirbaz!",
   "description.laurie.chuckle.crow":
-    "Rahatsız edici kıkırdaması ile gagalayanları mahsullerinden kaçırıyor!",
+    "Rahatsız Edici Gülüşüyle Zararlıları Uzak Tutuyor: Mahsullerinizi Her Türlü Tehlikeden Koruyor!",
   "description.immortal.pear":
-    "Meyve ağaçlarının daha uzun süre hayatta kalmasını sağlayan uzun ömürlü bir armut.",
+    "Meyve Ağaçlarının Ömrünü Uzatan Efsanevi Armut: Ağaçlarınızı Daha Uzun Süre Yaşatır.",
   "description.bale":
-    "Tavuklar için konforlu bir sığınak sağlayan,kümes hayvanlarının en sevdiği komşusu.",
+    "Tavukların Yumurta Verimini Artıran Konforlu Sığınak: Kümes Hayvanlarının Favori Komşusu.",
   "description.sir.goldensnout":
     "Kraliyet üyesi Sir Goldensnout,altın gübresi ile çiftliğine refah sağlıyor.",
   "description.freya.fox":
@@ -1222,13 +1222,13 @@ const conversations: Record<Conversations, string> = {
   "betty-intro.three":
     "Tohumlara mı ihtiyacınız var? Patateslerden yaban havuçlarına kadar her konuda yanınızdayım!",
   "betty.market-intro.one":
-    "Merhaba Bumpkin! Ben çiftçi pazarından Betty. Mahsul satın almak ve taze tohum satmak için adalar arasında seyahat ediyorum.",
+    "Merhaba Bumpkin! Ben çiftçi pazarından Betty. Mahsul satın almak veya taze tohum satmak için adalar arasında seyahat ediyorum.",
   "betty.market-intro.two":
-    "İyi haber: az önce yeni ve parlak bir kürekle karşılaştınız! Kötü haber: Bir miktar mahsul kıtlığı yaşadık.",
+    "İyi haber: Az önce yeni ve parlak bir kürekle karşılaştınız! Kötü haber: Bir miktar mahsul kıtlığı yaşadık.",
   "betty.market-intro.three":
-    "Sınırlı bir süre için yeni gelenlere, bana getireceğiniz mahsuller için paranın iki katını teklif ediyorum.",
+    "Kısa bir süreliğine, bana getirdiğiniz ürünler için ödeyeceğim tutarı iki katına çıkarıyorum.",
   "betty.market-intro.four":
-    "Ayçiçeklerini hasat edin ve çiftçilik imparatorluğunuzu kuralım.",
+    "Ayçiçeklerini hasat edin ve çiftçilik imparatorluğunuzu kurmaya başlayalım!",
 
   "bruce-intro.headline": "Yemek Pişirmeye Giriş",
   "bruce-intro.one": "Bu sevimli küçük bistronun sahibiyim.",
@@ -1252,7 +1252,7 @@ const conversations: Record<Conversations, string> = {
   "pete.craftScarecrow.two":
     "Sunflower Land, çiftçilik becerilerinizi geliştirmek için üretebileceğiniz büyülü öğelerle doludur.",
   "pete.craftScarecrow.three":
-    "Çalışma tezgahına gidin ve Ayçiçeklerini hızlandırmak için bir korkuluk yapın.",
+    "Çalışma tezgahına gidin ve ayçiçeklerini hızlandırmak için bir korkuluk yapın.",
   "pete.levelthree.one": "Tebrikler, yeşil baş parmağınız gerçekten parlıyor!",
   "pete.levelthree.two":
     "Çiftçilik yeteneğinizin daha da parlayabileceği Plaza'ya gitmemizin tam zamanı.",
@@ -1287,9 +1287,9 @@ const conversations: Record<Conversations, string> = {
     "Oyuncuların oluşturduğu bu portallara seyahat edin ve ödüller kazanın.",
 
   "pete.intro.one":
-    "Selam, Bumpkin! Her şeyin mümkün olduğu bereketli tarım cenneti Sunflower Land’e hoş geldiniz!",
+    "Selam Bumpkin! Her şeyin mümkün olduğu bereketli tarım cenneti Sunflower Land’e hoş geldin!",
   "pete.intro.two":
-    "Ne güzel bir ada kurmuşsun! Ben komşu çiftçiniz Balkabağı Pete'im.",
+    "Ne güzel bir ada kurmuşsun! Ben komşu çiftçi Balkabağı Pete'im.",
   "pete.intro.three":
     "Şu anda oyuncular plazada muhteşem ödüller ve büyülü eşyalarla dolu bir festivali kutluyorlar.",
   "pete.intro.four":
@@ -1806,9 +1806,10 @@ const errorTerms: Record<ErrorTerms, string> = {
     "Bu hata devam ederse lütfen Metamask RPC'nizi değiştirmeyi deneyin.",
   "error.connection.one": "Görünüşe göre bu isteği yerine getiremedik.",
   "error.connection.two": "Basit bir bağlantı sorunu olabilir.",
-  "error.connection.three": "Tekrar denemek için yenile'yi tıklayabilirsiniz.",
+  "error.connection.three":
+    "Tekrar denemek için yenile tuşuna tıklayabilirsiniz.",
   "error.connection.four":
-    "Sorun devam ederse destek ekibimizle iletişime geçerek veya discord'a geçip topluluğumuza sorarak yardıma ulaşabilirsiniz.",
+    "Sorun devam ederse, destek ekibimizle iletişime geçerek veya discord'a geçip topluluğumuza sorarak yardıma ulaşabilirsiniz.",
   "error.diagnostic.info": "Teşhis Bilgileri",
   "error.forbidden.goblinVillage":
     "Goblin Köyü'nü ziyaret etmenize izin verilmiyor!",
@@ -2300,7 +2301,7 @@ const gameDescriptions: Record<GameDescriptions, string> = {
 const gameTerms: Record<GameTerms, string> = {
   "auction.winner": "Açık Artırma Kazananı!",
   "bumpkin.level": "Bumpkin seviyesi",
-  bumpkinBuzz: "Bumpkin Vızıltısı",
+  bumpkinBuzz: "Bumpkin Mesaj Kutusu",
   dailyLim: "Günlük SFL Limiti",
   "farm.banned": "Bu çiftlik yasaklandı",
   gobSwarm: "Goblin Sürüsü!",
@@ -2476,13 +2477,13 @@ const guideTerms: Record<GuideTerms, string> = {
     "Sunflower Land’de sezonlar oyuna heyecan ve tazelik katarak oyunculara yeni zorluklar ve fırsatlar sunuyor. Her sezonun tanıtımıyla birlikte oyuncular çeşitli yeni işlenebilir öğeleri, sınırlı sayıda üretilen dekorasyonları, mutant hayvanları ve nadir hazineleri sabırsızlıkla bekleyebilirler. Bu sezonluk değişiklikler, dinamik ve gelişen bir oyun deneyimi yaratarak oyuncuları stratejilerini uyarlamaya ve çiftliklerinde yeni olasılıkları keşfetmeye teşvik ediyor. Buna ek olarak, sezonluk biletler oyuna stratejik bir unsur katıyor; çünkü oyuncuların, nadir öğeleri toplamak, daha yüksek tedarik dekorasyonlarını tercih etmek veya SFL için bilet alışverişi yapmak gibi biletlerini akıllıca nasıl dağıtacaklarına karar vermeleri gerekiyor. Sezonluk mekanik, oyunu ilgi çekici kılıyor ve Sunflower Land’de her zaman sabırsızlıkla beklenecek bir şeyler olmasını sağlıyor.",
   "seasons.guide.two":
     "Goblin Demircisinde mevsimlik eşyaların mevcudiyeti başka bir heyecan katıyor. Oyuncular bu sınırlı tedarikli eşyaları üretmek için gerekli kaynakları ve sezonluk biletleri toplamalı, böylece rekabet ve aciliyet hissi yaratılmalıdır. Oyuncular arz tükenmeden önce istedikleri eşyaları güvence altına almayı amaçladıklarından, ileriyi planlamak ve strateji oluşturmak çok önemli hale geliyor. Dahası, sezonluk biletleri Coins ile değiştirme seçeneği esneklik sağlar ve oyuncuların kendi özel oyun hedeflerine uygun seçimler yapmalarına olanak tanır. Her sezonun benzersiz teklifleri ve sürpriz etkinlik beklentisiyle Sunflower Land, oyuncuları yıl boyunca meşgul edip eğlendirerek canlı ve sürekli gelişen bir çiftçilik deneyimini teşvik ediyor.",
-  "pete.teaser.one": "Ağaçları Kesin",
-  "pete.teaser.three": "Ayçiçeklerini Hasat Edin",
-  "pete.teaser.four": "Ayçiçeklerini Sat",
+  "pete.teaser.one": "Agacları Kesin",
+  "pete.teaser.three": "Ayciceklerini Hasat Edin",
+  "pete.teaser.four": "Ayciceklerini Sat",
   "pete.teaser.five": "Tohum satın al",
   "pete.teaser.six": "Tohumleri Ek",
   "pete.teaser.seven": "Bir Korkuluk Yap",
-  "pete.teaser.eight": "Yemek pişirin ve seviye atlayın",
+  "pete.teaser.eight": "Yemek pisirin ve seviye atlayın",
 };
 
 const halveningCountdown: Record<HalveningCountdown, string> = {
@@ -2923,10 +2924,10 @@ const noaccount: Record<Noaccount, string> = {
   "noaccount.alreadyHaveNFTFarm": "Zaten bir NFT çiftliğiniz var mı?",
   "noaccount.createFarm": "Çiftlik Oluştur",
   "noaccount.noFarmNFTs": "Herhangi bir çiftlik NFT'sine sahip değilsiniz.",
-  "noaccount.createNewFarm": "Yeni çiftlik oluştur",
+  "noaccount.createNewFarm": "Yeni Çiftlik Oluştur",
   "noaccount.selectNFTID": "NFT kimliğinizi seçin:",
   "noaccount.welcomeMessage":
-    "Sunflower Land’de hoş geldiniz. Henüz bir çiftliğiniz yok gibi görünüyor.",
+    "Sunflower Land’e hoş geldiniz. Henüz bir çiftliğiniz yok gibi görünüyor.",
   "noaccount.promoCodeLabel": "Promosyon kodu",
 };
 
@@ -4092,7 +4093,7 @@ const sharkBumpkinDialogues: Record<SharkBumpkinDialogues, string> = {
 };
 
 const shelly: Record<Shelly, string> = {
-  "shelly.Dialogue.one": "Selam, Bumpkin! Plaja hoş geldiniz!",
+  "shelly.Dialogue.one": "Selam Bumpkin! Plaja hoş geldiniz!",
   "shelly.Dialogue.two":
     "Çiftliğinizde geçirdiğiniz zorlu bir günün ardından arkanıza yaslanıp dalgaların tadını çıkarmak için daha iyi bir yer olamaz.",
   "shelly.Dialogue.three":
@@ -4131,8 +4132,8 @@ const shopItems: Record<ShopItems, string> = {
   "betty.post.sale.three":
     "Daha büyük ve daha iyi mahsullere geçmenin zamanı geldi!",
   "betty.welcome": "Pazarıma hoş geldiniz. Ne yapmak istersin?",
-  "betty.buySeeds": "Tohum satın al",
-  "betty.sellCrops": "Mahsul satmak",
+  "betty.buySeeds": "Tohum Satın Al",
+  "betty.sellCrops": "Mahsul Sat",
 };
 
 const showingFarm: Record<ShowingFarm, string> = {
@@ -4269,7 +4270,7 @@ const statements: Record<Statements, string> = {
     "Nadir NFT'leri basmak için Gold Pass gereklidir.",
   "statements.frankie.plaza":
     "Nadir dekorasyonlar yapmak için plazaya seyahat edin!",
-  "statements.blacksmith.plaza": "Daha nadir eşyalar için Plaza'ya gidin.",
+  "statements.blacksmith.plaza": "Daha Nadir Eşyalar İçin Plaza'ya Gidin.",
   "statements.water.well.needed.one": "Ek Su Kuyusu gereklidir.",
   "statements.water.well.needed.two":
     "Daha fazla mahsulü desteklemek için bir kuyu inşa edin.",
@@ -4326,15 +4327,15 @@ const tieBreaker: Record<TieBreaker, string> = {
 
 const toolDescriptions: Record<ToolDescriptions, string> = {
   // Tools
-  "description.axe": "Odun toplamak için kullanılır",
-  "description.pickaxe": "Taş toplamak için kullanılır",
-  "description.stone.pickaxe": "Demir toplamak için kullanılır",
-  "description.iron.pickaxe": "Altın toplamak için kullanılır",
-  "description.rod": "Balık yakalamak için kullanılır",
+  "description.axe": "Odun Toplamak İçin Kullanılır",
+  "description.pickaxe": "Taş Toplamak İçin Kullanılır",
+  "description.stone.pickaxe": "Demir Toplamak İçin Kullanılır",
+  "description.iron.pickaxe": "Altın Toplamak İçin Kullanılır",
+  "description.rod": "Balık Yakalamak İçin Kullanılır",
   "description.rusty.shovel":
-    "Binaları ve koleksiyon parçalarını kaldırmak için kullanılır",
-  "description.shovel": "Bitkileri ekin ve hasat edin.",
-  "description.sand.shovel": "Hazine kazmak için kullanılır",
+    "Binaları Ve Koleksiyon Parçalarını Kaldırmak İçin Kullanılır",
+  "description.shovel": "Bitkileri Ekin Ve Hasat Edin.",
+  "description.sand.shovel": "Hazine Kazmak İçin Kullanılır",
   "description.sand.drill":
     "Sıra dışı veya nadir hazineler için derinlere inin",
   "description.gold.pickaxe": "Kızıltaş ve güneştaşı toplamak için kullanılır",
@@ -4499,12 +4500,12 @@ const warningTerms: Record<WarningTerms, string> = {
 };
 
 const welcomeTerms: Record<WelcomeTerms, string> = {
-  "welcome.createAccount": "Hesap oluşturmak",
+  "welcome.createAccount": "Hesap Oluştur",
   "welcome.creatingAccount": "Hesabınız oluşturuluyor",
   "welcome.email": "E-posta ve Sosyal Giriş",
   "welcome.login": "Giriş Yap",
   "welcome.needHelp": "Yardıma mı ihtiyacınız var?",
-  "welcome.otherWallets": "Diğer cüzdanlar",
+  "welcome.otherWallets": "Diğer Cüzdanlar",
   "welcome.signingIn": "Oturumunuz açılıyor",
   "welcome.signIn.Message":
     "Oturum açmak için tarayıcı cüzdanınızdaki imza isteğini kabul edin.",
@@ -4621,7 +4622,7 @@ const wornDescription: Record<WornDescription, string> = {
 };
 
 const pwaInstall: Record<PwaInstall, string> = {
-  "install.app": "Uygulayı İndir",
+  "install.app": "Uygulamayı İndir",
   "magic.link": "Sihirli Bağlantı",
   "generating.link": "Bağlantı Oluşturuluyor",
   "generating.code": "Kod Oluşturuluyor",
